@@ -1,4 +1,4 @@
-# odin-testing-practice
-Practicing using tests in JS using Jest by making some functions and tests for those functions.
+# odin-linked-lists
+Learning about data structures by making a linked list in JS.
 
-TDD seems neat. I think I might try to use tests in the later projects to see how it will change my workflow.
+Was pretty easy since I did this in my college comp sci classes. It was still interesting to code and make though.
