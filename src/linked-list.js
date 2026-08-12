@@ -68,6 +68,7 @@ function linkedList () {
 
   const contains = (value) => {
     let current = head;
+    if (current.value === value) return true;
     while (current.next !== null) {
       current = current.next;
       if (current.value === value) return true;
@@ -78,6 +79,7 @@ function linkedList () {
   const findIndex = (value) => {
     let current = head;
     let count = 0;
+    if (current.value === value) return count;
     while (current.next !== null) {
       current = current.next;
       count++;
