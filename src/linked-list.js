@@ -46,6 +46,7 @@ function linkedList () {
   }
 
   const at = (index) => {
+    if (head === null) return undefined;
     let current = head;
     for (let i = 0; i < index; i++) {
       if (current.value === null) return undefined;
@@ -67,6 +68,7 @@ function linkedList () {
   }
 
   const contains = (value) => {
+    if (head === null) return false;
     let current = head;
     if (current.value === value) return true;
     while (current.next !== null) {
@@ -77,6 +79,7 @@ function linkedList () {
   }
 
   const findIndex = (value) => {
+    if (head === null) return false;
     let current = head;
     let count = 0;
     if (current.value === value) return count;
